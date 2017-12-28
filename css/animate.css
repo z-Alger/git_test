@@ -1,0 +1,238 @@
+
+/*橋強 ））））））））））））））））））））））））））））））） */
+
+.tada   {
+    animation:bounceIn 2s .2s ease both;
+}
+
+@keyframes tada 	{
+    0%{transform:scale(1)}
+    10%,20%{transform:scale(0.9) rotate(-3deg)}
+    30%,50%,70%,90%{transform:scale(1.1) rotate(3deg)}
+    40%,60%,80%{transform:scale(1.1) rotate(-3deg)}
+    100%{transform:scale(1) rotate(0deg)}
+}
+/*起柳序秘 ））））））））））））））））））））））））））））））） */
+
+.bounceIn   {
+   animation:bounceIn 2s .2s ease both;
+}
+
+@keyframes bounceIn{
+    0%{opacity:0;
+        transform:scale(.8)}
+    30%{opacity:.5;
+        transform:scale(1.2)}
+    50%{opacity:1;
+        transform:scale(1.55)}
+    70%{transform:scale(.8)}
+    100%{transform:scale(1)}
+}
+
+/*貫貧中起柳序秘 ）））））））））））））））））））））））））））） */
+
+.bounceInDown 			{
+    animation:bounceInDown 1s .2s ease both;
+
+}
+@keyframes bounceInDown{
+    0%{opacity:0;
+        transform:translateY(-2000px)}
+    60%{opacity:1;
+       transform:translateY(30px)}
+    80%{transform:translateY(-10px)}
+    100%{transform:translateY(0)}
+}
+
+/*起柳 ）））））））））））））））））））））））））））） */
+
+.tantiao {
+
+    animation:tantiao 2s .2s ease both;
+
+}
+@keyframes tantiao{
+    0%{opacity:1;
+        transform:translateY(0)}
+    50%{opacity:1;
+        transform:translateY(-20px)}
+    100%{transform:translateY(0)}
+}
+
+/* 貫和中起柳序秘 ）））））））））））））））））））））））））））） */
+
+.bounceInUp{
+    animation:bounceInUp 1s .2s ease both;
+}
+
+@keyframes bounceInUp{
+    0%{opacity:0;
+        transform:translateY(2000px)}
+    60%{opacity:1;
+        transform:translateY(-30px)}
+    80%{transform:translateY(10px)}
+    100%{transform:translateY(0)}
+}
+
+
+/*貫恣円起柳序秘 ）））））））））））））））））））））））））））） */
+
+.bounceInLeft{
+    animation:bounceInLeft 1s .2s ease both;
+
+}
+
+@keyframes bounceInLeft{
+    0%{opacity:0;
+        transform:translateX(-2000px)}
+    60%{opacity:1;
+        transform:translateX(30px)}
+    80%{transform:translateX(-10px)}
+    100%{transform:translateX(0)}
+}
+
+
+/*貫嘔円起柳序秘 ）））））））））））））））））））））））））））） */
+
+.bounceInRight{
+    animation:bounceInRight 1s .2s ease both;
+}
+
+@keyframes bounceInRight{
+    0%{opacity:0;
+        transform:translateX(2000px)}
+    60%{opacity:1;
+        transform:translateX(-30px)}
+    80%{transform:translateX(10px)}
+    100%{transform:translateX(0)}
+}
+
+/*起柳序秘 ）））））））））））））））））））））））））））） */
+
+.bounceIn 				{
+    animation:bounceIn 1s .2s ease both;
+}
+
+@keyframes bounceIn{
+    0%{opacity:0;
+        transform:scale(.5)}
+    25%{opacity:1;
+        transform:scale(.7)}
+    50%{
+        transform:scale(1.2)}
+    75%{
+        transform:scale(.75)}
+    100%{
+        transform:scale(1)}
+}
+
+/*起柳曜竃 ）））））））））））））））））））））））））））） */
+
+.bounceOut 				{
+    animation:bounceOut 1s .2s ease both;
+}
+
+@keyframes bounceOut{
+    0%{transform:scale(1)}
+    25%{transform:scale(.95)}
+    50%{opacity:1;
+        transform:scale(1.1)}
+    100%{opacity:0;
+        transform:scale(.3)}
+}
+
+
+/*吏和起柳曜竃 ）））））））））））））））））））））））））））） */
+
+.bounceOutDown 			{
+    animation:bounceOutDown 1s .2s ease both;
+}
+
+@keyframes bounceOutDown{
+    0%{transform:translateY(0)}
+    20%{opacity:1;
+        transform:translateY(-20px)}
+    100%{opacity:0;
+        transform:translateY(2000px)}
+}
+
+
+/*吏貧起柳曜竃 ）））））））））））））））））））））））））））） */
+
+.bounceInUp 			{
+    animation:bounceOutUp 1s .2s ease both;
+}
+
+@keyframes bounceOutUp{
+    0%{transform:translateY(0)}
+    20%{opacity:1;
+        transform:translateY(20px)}
+    100%{opacity:0;
+        transform:translateY(-2000px)}
+}
+
+
+/*吏恣起柳曜竃 ）））））））））））））））））））））））））））） */
+
+.bounceOutLeft 			{
+    animation:bounceInLeft 1s .2s ease both;
+}
+
+@keyframes bounceInLeft{
+
+    0%{opacity:0;
+        transform:translateX(-2000px)}
+    60%{opacity:1;
+        transform:translateX(30px)}
+    80%{transform:translateX(-10px)}
+    100%{transform:translateX(0)}
+}
+
+
+
+/* 吏嘔起柳曜竃 ）））））））））））））））））））））））））））） */
+
+.bounceOutRight 		{
+    animation:bounceOutRight 1s .2s ease both;
+}
+
+
+@keyframes bounceOutRight{
+    0%{transform:translateX(0)}
+    20%{opacity:1;
+        transform:translateX(-20px)}
+    100%{opacity:0;
+        transform:translateX(2000px)}
+}
+
+
+/*傴廬序秘 ）））））））））））））））））））））））））））） */
+
+.rotateIn 				{
+    animation:rotateIn 1s .2s ease both;
+}
+
+@keyframes rotateIn{
+    0%{transform-origin:center center;
+        transform:rotate(-200deg);
+        opacity:0}
+    100%{transform-origin:center center;
+        transform:rotate(0deg);
+        opacity:1}
+}
+
+
+/*41.恣円傴廬序秘 ））））））））））））））））））））））））））） */
+
+.rotateInDownLeft 		{
+   animation:rotateInDownLeft 1s .2s ease both;
+}
+
+@keyframes rotateInDownLeft{
+    0%{transform-origin:left bottom;
+        transform:rotate(-90deg);
+        opacity:0}
+    100%{transform-origin:left bottom;
+        transform:rotate(0deg);
+        opacity:1}
+}

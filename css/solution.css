@@ -1,0 +1,742 @@
+
+/*solution��ʽ�?ʼ*/
+.solu_banner{
+    width: 100%;
+    background: url("../images/solu_img/solution_banner%20.jpg") no-repeat center 0;
+}
+.solu_cont{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 160px 0;
+}
+.solu_top div{
+   float: left;
+}
+.solu_020{
+    position: relative;
+    width: 500px;
+    animation: bounceInDown 1s .3s ease both;
+}
+.solu_020 p{
+    width: 502px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(91,112,138,.5);
+    font: 25px/100px 'Microsoft YaHei';
+    color: #FFf;
+
+}
+.solu_bg{
+    height: 100px;
+    opacity: 0.5;
+    background: transparent;
+}
+.solu_020 p span{
+    float: left;
+    padding: 0 50px 0 20px;
+    background: #353535;
+}
+.solu_020 p a{
+    padding: 0 50px 0 20px;
+    float: right;
+    font: 40px/100px '����';
+    color: #FFf;
+}
+.solu_top div:not(.solu_020){
+    padding: 20px 15px;
+    width: 220px;
+    position: relative;
+    height: 295px;
+    background: #71b057;
+}
+.solu_top div:last-child{
+    padding: 20px 15px;
+    width: 220px;
+    background: #f6ab00;
+}
+.solu_top .solu_title h3{
+    font: 21px/30px 'Microsoft YaHei';
+    color: #Fff;
+    padding: 0 35px 20px 0;
+    border-bottom: 1px solid #88c26b;
+}
+.solu_top .solu_title .title_h3{
+    border-bottom: 1px solid #fcd200;
+}
+.solu_top .solu_title p{
+    font: 14px/27px 'Microsoft YaHei';
+    color: #Fff;
+    padding: 10px 0;
+    text-indent: 30px;
+}
+.solu_top .solu_title a{
+    display: block;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+.solu_top .solu_title a:hover{
+    animation: tada 1s .2s ease both;
+}
+
+
+/*solu_bottom��ʼ*/
+
+.solu_bottom div{
+    float: left;
+}
+.solu_remove{
+    position: relative;
+    width: 500px;
+    animation: bounceInUp 1s .3s ease both;
+}
+.solu_remove p{
+    width: 502px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(91,112,138,.5);
+    font: 25px/100px 'Microsoft YaHei';
+    color: #FFf;
+
+}
+
+.solu_remove p span{
+    float: left;
+    padding: 0 50px 0 20px;
+    background: #353535;
+}
+.solu_remove p a{
+    padding: 0 50px 0 20px;
+    float: right;
+    font: 40px/100px '����';
+    color: #FFf;
+}
+.solu_bottom div:not(.solu_remove){
+    padding: 20px 15px;
+    width: 220px;
+    height: 295px;
+    background: #ed6d00;
+    position: relative;
+}
+.solu_bottom div:nth-child(2){
+    padding: 20px 15px;
+    width: 220px;
+    background: #0077db;
+}
+.solu_bottom .solu_title h3{
+    font: 21px/30px 'Microsoft YaHei';
+    color: #Fff;
+    padding: 0 35px 20px 0;
+    border-bottom: 1px solid #f59700;
+}
+.solu_bottom .solu_title .title_h3{
+    border-bottom: 1px solid #0092e6;
+}
+.solu_bottom .solu_title p{
+    font: 14px/27px 'Microsoft YaHei';
+    color: #Fff;
+    padding: 10px 0;
+    text-indent: 30px;
+}
+.solu_bottom .solu_title a{
+    display: block;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+.solu_bottom .solu_title a:hover{
+    animation: tada 1s .2s ease both;
+}
+
+/*solu_bottom����*/
+
+/*solution��ʽ�����*/
+
+/*preseve��ʽ�?ʼ*/
+.seve_banner{
+    width: 100%;
+    background: url("../images/seve_img/services-bgImg.jpg") no-repeat center 0;
+}
+.seve_topR,.seve_topL{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.seve_topL>img{
+    width: 100%;
+    height: 466px;
+    display: block;
+}
+.seve_topR>img{
+    height: 466px;
+    display: block;
+}
+.seve_topL .txt{
+    padding: 15px;
+    background: #11925c;
+}
+.seve_topL .txt img{
+    float: left;
+
+}
+.seve_topL .txt a{
+    float: right;
+    margin: 30px 20px 0 0;
+}
+.seve_topL .txt a:hover{
+    animation: tada 1s .2s ease both;
+}
+
+.seve_topR .txt{
+    padding: 15px;
+}
+.seve_topR .txt img{
+    float: left;
+
+}
+.seve_topR .txt a{
+    float: left;
+    margin: 25px 20px 0 20px;
+}
+
+
+/*seve_bottom��ʽ��ʼ*/
+.seve_bottom{
+    width: 1050px;
+    float: right;
+    margin-bottom: 100px;
+}
+.seve_bottom>div{
+    float: left;
+    position: relative;
+}
+.seve_bottomL .orange{
+    height: 100%;
+    width: 376px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(203,109,22,.8);
+}
+.seve_bottomL .seve_btm{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    width: 100%;
+}
+.seve_bottomL .seve_btm span{
+   float: left;
+}
+.seve_bottomL .seve_btm a{
+    float: right;
+    margin: 20px;
+}
+.seve_bottomL .seve_btm{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    width: 100%;
+}
+.seve_bottomR{
+    width: 480px;
+   background: #fff;
+
+}
+.seve_bottomR .seve_btm{
+    width: 470px;
+    margin: 10px 0 5px 10px;
+    border-bottom: 1px solid #d6d6d6;
+
+}
+.seve_bottomR .seve_btm span{
+    float: left;
+}
+.seve_bottomR .seve_btm a{
+    float: right;
+    margin: 20px;
+}
+.seve_bottomR ul{
+    list-style: disc;
+    margin: 24px 0 19px 20px;
+    font: 14px/25px 'Microsoft YaHei';
+}
+.seve_bottomR ul li{
+    margin: 10px 0;
+}
+.seve_bottomR ul li a:hover{
+    color:#014ea1 ;
+}
+
+/*seve_bottom��ʽ����*/
+
+/*preseve��ʽ�����*/
+
+
+
+/*partner������鿪ʼ*/
+.part_banner{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background:#000 url("../images/part_img/partner_banner.jpg") no-repeat center 0;
+}
+.part_banner .one{
+   position: absolute;
+    top: 170px;
+    left: 210px;
+    box-shadow: -20px 80px 3px rgba(35,43,52,.2);
+    overflow: hidden;
+}
+.part_banner .one:hover .img{
+    transform: scale(1.2);
+    transition: 2s;
+}
+.part_banner .one p{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 99;
+}
+.part_banner .one a{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 99;
+    display: none;
+}
+.blue_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: url("../images/part_img/blue_bg.png") repeat;
+}
+.part_banner .two{
+    margin: 80px 0 0 460px;
+    width: 251px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 20px -20px 3px rgba(35,43,52,.1);
+
+}
+.part_banner .two p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 126px;
+    height: 61px;
+    overflow: hidden;
+    z-index: 99;
+}
+.part_banner .two:hover .three_p{
+    display: none;
+}
+.part_banner .two:hover .img{
+    transform: scale(1.2);
+    transition: 2s;
+}
+.part_banner .two a{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 99;
+    display: none;
+}
+.part_banner .three{
+    margin: 0 0 100px 460px;
+    position: relative;
+    overflow: hidden;
+    width: 251px;
+    box-shadow: -20px 80px 3px rgba(35,43,52,.3);
+}
+.part_banner .three:hover .img{
+    transform: scale(1.2);
+    transition: 2s;
+}
+.part_banner .three p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 126px;
+    height: 61px;
+    overflow: hidden;
+    z-index: 99;
+}
+
+.part_banner .three a{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 99;
+    display: none;
+}
+.part_banner .four{
+    position: absolute;
+    top: 400px;
+    right:387px;
+    overflow: hidden;
+    box-shadow: 30px -30px 3px rgba(35,43,52,.4);
+}
+.part_banner .four:hover .img{
+    transform: scale(1.2);
+    transition: 2s;
+}
+.part_banner .four p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 126px;
+    height: 61px;
+    overflow: hidden;
+    z-index: 99;
+}
+.part_banner .four a{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 99;
+    display: none;
+}
+
+/*partner����������*/
+
+
+/*prolist��ʤ��Ʒ��ʼ*/
+.pro_banner{
+    width: 100%;
+    overflow: hidden;
+    background:#000 url("../images/pro_img/products_banner.jpg") no-repeat center 0;
+}
+.first1{
+    width: 1220px;
+    height: 350px;
+    margin: 0 auto;
+}
+.first1 div{
+    float: left;
+
+}
+.f_1{
+    position: relative;
+    animation:bounceInDown 1s .2s ease both;
+}
+.f_1 h3{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font: 25px/30px 'Microsoft YaHei';
+}
+.f_2{
+    padding: 10px;
+    width: 270px;
+    position: relative;
+    background: #f3f1f1;
+    animation:bounceInDown 1s .6s ease both;
+}
+.f_2:hover{
+    background: #f06da9;
+}
+.f_2:hover p{
+    background: #e35395;
+    color: #fff;
+}
+.f_2:hover span{
+    background:#e35395 url("../images/pro_img/white.png") no-repeat 20px 0 ;
+}
+.f_2 img{
+    padding-bottom: 10px;
+}
+.f_2 h3{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    color: #fff;
+    font-weight: bolder;
+    font: 18px/30px 'Microsoft YaHei';
+}
+.f_2 p{
+    padding: 20px 15px;
+    font: 14px/22px 'Microsoft YaHei';
+    background: #f3f1f1;
+}
+.f_2 span{
+    display: block;
+    width: 230px;
+    height: 40px;
+    padding: 5px 20px;
+    background: url("../images/pro_img/gray.png") no-repeat 15px 0 ;
+}
+.i_up{
+    position: absolute;
+    top: 160px;
+    left: 80px;
+    border-bottom: 15px solid #fff;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+}
+.f_3{
+    width: 270px;
+    position: relative;
+    background: #f3f1f1;
+    animation:bounceIn 1s 1.4s ease both;
+}
+.first1 .f_3:nth-of-type(3){
+    animation:bounceInDown 1s 1s ease both;
+}
+.f_3:hover{
+    background: #f06da9;
+}
+.f_3:hover p{
+    background: #e35395;
+    color: #fff;
+}
+.f_3:hover span{
+    background:#e35395 url("../images/pro_img/white.png") no-repeat 20px 0 ;
+}
+
+.f_3 h3{
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+    color: #fff;
+    font-weight: bolder;
+    font: 18px/30px 'Microsoft YaHei';
+}
+.f_3 div{
+    padding: 10px;
+    width: 250px;
+}
+.f_3 p{
+    padding: 20px 10px;
+    font: 14px/20px 'Microsoft YaHei';
+    background: #fff;
+}
+.f_3 span{
+    display: block;
+    width: 210px;
+    height: 40px;
+    padding: 3px 20px;
+    background: #fff url("../images/pro_img/gray.png") no-repeat 15px 0 ;
+}
+.i_down{
+    position: absolute;
+    top: 185px;
+    left: 80px;
+    border-top: 15px solid #fff;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+}
+.two2{
+    top: 150px;
+}
+.tit{
+
+    top: 80px;
+}
+
+/*������two*/
+
+.two1{
+    width: 1220px;
+    margin: 0 auto;
+}
+.two1 div{
+    float: left;
+    animation:bounceIn 1s 1.4s ease both;
+}
+.two1 .t_1:nth-of-type(1){
+    animation:bounceIn 1s 1.8s ease both;
+}
+.t_1{
+    position: relative;
+    width: 435px;
+    height: 200px;
+}
+.t_1:hover .t_1bg{
+    background:#507da2 url("../images/pro_img/por-bStyle01-h.png") no-repeat;
+}
+.t_1:hover .t_1text{
+    opacity: 1;
+}
+.t_1 .t_1bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.7) url("../images/pro_img/por-bStyle01.png") no-repeat;
+}
+.t_1 .t_1text{
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    opacity: .7;
+}
+.t_1 h3{
+    margin: 0 10px 10px;
+    font: 20px/30px 'Microsoft YaHei';
+    color: #fff;
+}
+.t_1 h5{
+    margin: 0 10px 10px;
+    font: 14px/30px 'Microsoft YaHei';
+    color: #fff;
+}
+.t_1:hover .t_1bg2{
+    background:#507da2 url("../images/pro_img/por-bStyle02-h.png") no-repeat;
+}
+.t_1 .t_1bg2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.7) url("../images/pro_img/por-bStyle02.png") no-repeat;
+}
+
+/*������three*/
+.three1{
+    width: 1260px;
+    height: 352px;
+    margin-left: 30px;
+
+}
+.three1 div{
+    float: left;
+}
+.t_4{
+    width: 338px;
+    height: 320px;
+    overflow: hidden;
+    padding: 30px 20px 0;
+    background: #ea6a01;
+    position: relative;
+}
+.t_4 .box{
+    width: 686px;
+}
+.t_4 .box div{
+    width: 318px;
+    float: left;
+
+}
+.t_4 .box div:first-of-type{
+    padding-right: 20px;
+}
+.t_4 .box div:last-of-type{
+    padding-left: 20px;
+}
+.t_4 h3{
+    font: 28px/30px 'Microsoft YaHei';
+        color: #fff;
+}
+.t_4 h5{
+    font: 18px/50px 'Microsoft YaHei';
+    color: #fff;
+    border-bottom: 1px solid #f38e02;
+}
+.t_4 p{
+    margin: 20px 0;
+    font: 12px/20px 'Microsoft YaHei';
+    color: #fff;
+}
+.t_4 .box a{
+    display: block;
+    width: 100%;
+    padding: 40px 0 59px;
+    border-top: 1px solid #f38e02;
+}
+.t_4 span{
+    position: absolute;
+    bottom:0 ;
+    left: 0;
+    height: 25px;
+    width: 100%;
+    background: #ee8100;
+}
+.i_left{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    border-right: 8px solid #fff;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+.i_right{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    border-left: 8px solid #fff;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+/*������four*/
+.four1{
+    width: 1260px;
+    height: 200px;
+    margin : 0 0 100px 150px;
+}
+.four1>div{
+    float: left;
+    width: 370px;
+    background: rgba(0, 0 , 0 ,.5);
+    /*animation:rotateIn 1s .2s ease both;*/
+}
+.four1>div:hover {
+    background: #517fa4;
+}
+.four1>div:hover .four_1bg1{
+    background: url("../images/pro_img/integrate-l-03-hover.png") no-repeat;
+}
+.four1 .four_1 div{
+    float: left;
+}
+.four1 .four_1 .four_1bg1{
+    width: 115px;
+    height: 130px;
+    margin: 40px 0 0 20px;
+    background: url("../images/pro_img/integrate-l-03.png") no-repeat;
+}
+.four1 .four_1 h3{
+    width: 200px;
+    margin: 50px 10px 0 0;
+    height: 60px;
+    color: #fff;
+    font: 30px/30px  'Microsoft YaHei';
+}
+.four1 .four_1 a{
+    display: block;
+    margin: 40px 0 23px 0;
+}
+.four1>div:hover .four_1bg2{
+    background: url("../images/pro_img/integrate-l-02-hover.png") no-repeat;
+}
+.four1 .four_1 .four_1bg2{
+    width: 115px;
+    height: 130px;
+    margin: 40px 0 0 20px;
+    background: url("../images/pro_img/integrate-l-02.png") no-repeat;
+}
+.four1>div:hover .four_1bg3{
+    background: url("../images/pro_img/integrate-l-01-hover.png") no-repeat;
+}
+.four1 .four_1 .four_1bg3{
+    width: 115px;
+    height: 130px;
+    margin: 40px 0 0 20px;
+    background: url("../images/pro_img/integrate-l-01.png") no-repeat;
+}
+
+/*prolist��ʤ��Ʒ����*/
+
+
+
+

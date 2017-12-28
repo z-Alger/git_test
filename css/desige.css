@@ -1,0 +1,345 @@
+
+/*desige样式表开始*/
+.desige{
+    width: 100%;
+    height: 1000px;
+    background:url("../images/desi_img/yanjiu_banner.jpg") no-repeat center  0;
+    background-size: 100%;
+    position: relative;
+}
+.desige1{
+    width: 50%;
+    position: relative;
+    animation:bounceInLeft 1s .2s ease both;
+}
+.desige1 .desige1_img1{
+    width: 100%;
+}
+.desige1 .desige1_img2{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.desige1 .round_blank{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+
+}
+.round_blank:hover{
+
+    animation:tantiao .5s .2s ease both;
+
+}
+
+.desige2{
+    width: 400px;
+    position: absolute;
+    background: #fff;
+    left: 50%;
+    top: 170px;
+    animation:bounceInRight 1s .4s ease both;
+}
+.desige2 ul{
+    list-style: disc;
+    margin-left: 20px;
+    color: #656666;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+}
+.desige2 ul a:hover{
+    color: #004ea2;
+}
+
+.desige2 .desige2_img2{
+    margin: 10px 20px 20px ;
+}
+.type2{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.desige3{
+    position: absolute;
+    left: 193px;
+    top: 400px;
+    animation:bounceInDown 1s .6s ease both;
+}
+.desige3 .desige2_img2{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.type3{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.desige4{
+    position: absolute;
+    padding: 30px 30px 40px;
+    left: 335px;
+    background: #0076da;
+    top: 645px;
+    animation:bounceInUp 1s .8s ease both;
+}
+.desige4 .desige2_img2{
+    position: absolute;
+    top: 90px;
+    right: 90px;
+
+}
+.desige4 .desige2_img2:hover{
+    animation:tantiao .5s .2s ease both;
+}
+.desige5{
+    width: 650px;
+    position: absolute;
+    padding: 30px 30px 40px;
+    overflow: hidden;
+    left: 655px;
+    top: 370px;
+    animation:bounceInRight 1s 1s ease both;
+}
+.desige6{
+    position: absolute;
+    left: 655px;
+    top: 400px;
+    animation:bounceIn 1s 1.6s ease both;
+}
+.desige6 .desige2_img2{
+    position: absolute;
+    left: 15px;
+    bottom: 35px;
+}
+.desige7{
+    position: absolute;
+    left: 901px;
+    top: 400px;
+    animation:bounceInRight 1s 1.8s ease both;
+}
+.desige7 .desige2_img2{
+    position: absolute;
+    left: 200px;
+    top: 25px;
+}
+.type7{
+    position: absolute;
+    left: 200px;
+    bottom: 100px;
+}
+/*desige样式表结束*/
+
+
+
+/*about样式部分开始*/
+
+.about_banner{
+    width: 100%;
+    background:url("../images/about_img/about_banner.jpg") no-repeat center 0;
+    height: 1300px;
+    position: relative;
+}
+.about1{
+    width: 215px;
+    height: 670px;
+    background: rgba(0,114,212,.8);
+    position: absolute;
+    padding:10px;
+    top:300px;
+    left: 200px;
+}
+.about1 .text1{
+    padding: 10px 0;
+}
+.ul li a{
+    color: #fff;
+}
+.ul li a:hover{
+    text-decoration: underline;
+}
+.about1 .text2{
+    margin-top: 10px;
+    border-top:1px solid #008ae3;
+    border-bottom:1px solid #008ae3;
+}
+.about1 .text2:hover{
+    background: rgba(0,97,202,.8);
+}
+.about1 .text3{
+    padding: 10px 0;
+    margin-top: 10px;
+}
+.about1 .text3 h3{
+    color:#24d0f8 ;
+    font: 20px/30px "微软雅黑";
+}
+.about1 .text3 p{
+    color:#fff ;
+    font: 14px/20px "微软雅黑";
+}
+/*about2开始*/
+.about2{
+    width: 405px;
+    height: 670px;
+    position: absolute;
+    top:300px;
+    left: 435px;
+}
+.about2 .market{
+    width: 365px;
+    margin: 10px 20px;
+    height: 290px;
+    overflow: hidden;
+}
+.market h3{
+    font:bolder 20px/35px 'Microsoft YaHei';
+    color: #000;
+    border-bottom: 2px solid #004ea2;
+}
+.market h3 p{
+    float: right;
+    width: 50px;
+    height: 30px;
+}
+.market h3 p a{
+    display: inline-block;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+}
+.market h3 p .left{
+    border-right: 8px solid #0077db;
+    margin-right: 30px;
+}
+.market h3 p .right{
+    border-left: 8px solid #0077db;
+}
+.activity{
+    width: 900px;
+
+}
+.activity .art1{
+    float: left;
+    width: 365px;
+    padding: 10px 0;
+}
+.activity .art1 h3{
+   font: 22px/35px 'Microsoft YaHei';
+    color: #0077d4;
+    margin-bottom: 20px;
+}
+.activity .art1 p{
+    color:#3f3f3f;
+    text-indent: 28px;
+}
+.activity .art1 p a{
+    color:#004ea2;
+    text-indent: 10px;
+}
+/*招贤纳士*/
+.apple{
+    background: #fff;
+}
+.apple h3{
+    font: 20px/35px 'Microsoft YaHei';
+    width: 90px;
+    color: #fff;
+    background:#74cbe1;
+}
+.apple .require{
+    margin: 20px 10px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+.apple .require li{
+    line-height: 25px;
+    height: 22px;
+}
+.apple>p{
+    line-height: 24px;
+    padding: 10px;
+}
+
+
+
+
+
+
+/*about3开始*/
+.about3{
+     width: 370px;
+     height: 870px;
+     position: absolute;
+     top:120px;
+     left: 840px;
+}
+.about3 .text1{
+    padding: 20px;
+    height: 450px;
+    background: url("../images/about_img/about_img1.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.about3 .text1 h3{
+    font: 18px/30px 'Microsoft YaHei';
+    color: #fff;
+}
+.about3 .text2{
+    width: 100%;
+    margin: 0;
+    background: #f7f7f7;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.about3 .text2:hover{
+    background: #fff;
+}
+
+/*about4*/
+.about4{
+    width: 910px;
+    position: absolute;
+    left: 430px;
+    top: 990px;
+
+}
+.about4 a{
+    float: left;
+    width: 20px;
+    background: rgba(255,255,255,.5);
+    height: 220px;
+    font-size: 20px;
+    color: rgb(255,255,255);
+    line-height: 220px;
+}
+.about4 a:hover{
+    background: blue;
+}
+.about4 .left{
+    top:0;
+    left: 0;
+}
+.about4 .right{
+    top: 0;
+    right: 0;
+}
+.about4 .chara_box{
+    float: left;
+    width: 870px;
+    overflow: hidden;
+}
+.about4 .character{
+    width: 3000px;
+}
+.about4 .character li{
+    float: left;
+    position: relative;
+}
+.about4 .character li::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 220px;
+    position: absolute;
+    right: 0;
+    top: 0;background: url("../images/about_img/jia.png") no-repeat 0 -2px;
+}
+/*about样式部分结束*/
